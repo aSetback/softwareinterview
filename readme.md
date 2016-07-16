@@ -11,7 +11,7 @@
 * Set up your vhost
 
 ## URLs & Login
-The test user for this app is "test@user.com"
-The password for the user is "ThePassword1!"
-To log into the app, visit /login -- you will be redirected to the admin after login.
-Going to / should bring you to the front end of the app.
+* The test user for this app is "test@user.com"
+* The password for the user is "ThePassword1!"
+* To log into the app, visit /login -- you will be redirected to the admin after login.
+* Going to / should bring you to the front end of the app.
