@@ -19,8 +19,8 @@ class CreateRegistrationsTable extends Migration
             $table->string('address1', 255);
             $table->string('address2', 255);
             $table->string('city', 100);
-            $table->string('state', 50);
-            $table->string('country', 100);
+            $table->string('state', 2); // 2 letter abv.
+            $table->string('country', 2); // 2 letter abv -- should always be 'US'
             $table->string('zip', 10); // String, since there may be dashes (5 digits, or 9 digits w/ a dash)
             $table->timestamps();
         });

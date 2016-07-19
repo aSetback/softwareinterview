@@ -8,3 +8,11 @@ a {
     text-decoration: none;
     color: #333;
 }
+
+input.error, select.error {
+    border: solid 1px #b00b00;
+}
+
+label.error {
+    color: #b00b00;
+}
