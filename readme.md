@@ -1,11 +1,12 @@
 # JobFLEX Code Interview
 
 ## App Set-up:
-* Pull the code from github
+* Pull the code from github with `git clone https://github.com/davedehaan/softwareinterview.git softwareinterview`
 * Create an empty database for the app.
 * Edit app/database.php, with a valid mysql user/pass/db name
 * Run `composer install` from the base directory of the app
 * Verify permission on /storage are correct
+* Run `php artisan key-generate` to generate an encryption key
 * Run `php artisan migrate --env=local` the base directory of the app
 * Run `php artisan db:seed --env=local` from the base directory of the app
 * Set up your vhost
